@@ -1,25 +1,13 @@
 <?php
-
 function play() {
-
   session_start();
-
   if (isset($_SESSION['user'])) {
-
     unset($_SESSION['user']);
-
     session_destroy();
-
     @header('Location: index.php');
-
   }
-
 }
-
 play();
-
 ?>
-
 </body>
-
 </html>
