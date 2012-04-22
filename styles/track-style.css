@@ -1,0 +1,610 @@
+html {
+
+  height: 99%;
+
+  overflow-y: scroll;
+
+}
+
+body {
+
+  height: 99%;
+
+  background: ivory;
+
+  color: black;
+
+  font-family: Tahoma, Verdana, 'Palatino Linotype', georgia, verdana, 'Times New Roman';
+
+  font-size: 10pt;
+
+  overflow: auto;
+
+  width: 1060px;
+
+  margin: 4px auto;
+
+  /* width: 960px; */
+
+  /* overflow-y: auto; */
+
+  /* border: 1px solid gray; */
+
+}
+
+button {
+
+  font: inherit;
+
+}
+
+table, td, th {
+
+  border-collapse: collapse;
+
+}
+
+td, th {
+
+  padding: 2px 4px;
+
+}
+
+div {
+
+  margin: 0px;
+
+  padding: 0px;
+
+}
+
+legend {
+
+  font-weight: bold;
+
+}
+
+h3 {
+
+  margin: 0px;
+
+  padding-bottom: 8px;
+
+}
+
+th {
+
+  font-size: 100%;
+
+}
+
+a {
+
+  text-decoration: none;
+
+}
+
+a:hover {
+
+  text-decoration: underline;
+
+}
+
+
+
+input[type="text"],
+
+input[type="search"],
+
+input[type="password"],
+
+textarea,
+
+select {
+
+  padding: 4px 6px;
+
+  background: white;
+
+  border: 1px solid lighgray;
+
+  font-family: inherit; /* Tahoma,'Palatino Linotype', georgia, verdana, 'Times New  Roman'; */
+
+  font-size: 10pt;
+
+}
+
+
+
+.rounded {
+
+  -moz-border-radius: 8px;
+
+  -webkit-border-radius: 8px;
+
+  border-radius: 8px;
+
+}
+
+.rounded-small {
+
+  -moz-border-radius: 4px;
+
+  -webkit-border-radius: 4px;
+
+  border-radius: 4px;
+
+}
+
+.box {
+
+  box-shadow: 5px 5px 5px #666;
+
+  -moz-box-shadow: 5px 5px 5px #666;
+
+  -webkit-box-shadow: 5px 5px 5px #666;
+
+}
+
+
+
+#container {
+
+  height: 100%;
+
+}
+
+#header {
+
+  background-color: moccasin;
+
+  color: brown;
+
+  padding-top: 0.25em;
+
+  padding-bottom: 0.25em;
+
+  text-align: center;
+
+  font-size: 125%; /* Arial, Monospace, sans-serif; */
+
+  /* border-bottom: 1px solid orange; */
+
+}
+
+#blurb {
+
+   width: 600px;
+
+   padding: 2em;
+
+   margin: 8em auto;
+
+   background: lightyellow;
+
+   color: peru;
+
+   font-weight: bold;
+
+   font-size: 125%;
+
+   border: 1px solid peru;
+
+   text-align: center;
+
+}
+
+#menu-v {
+
+  float: left;
+
+  width: 160px;
+
+  height: 100%;
+
+  /* border: 2px solid navy; */
+
+}
+
+#menu-v ul {
+
+  margin: 0px;
+
+  list-style: none;
+
+  padding: 10px;
+
+  /* border-right: 2px solid orange; */
+
+}
+
+#menu-v li {
+
+  padding: 4px;
+
+  padding-bottom: 6px;
+
+}
+
+#content-v {
+
+  padding: 4px;
+
+  margin-left: 160px;
+
+  height: 100%;
+
+  /* border: 4px solid green; */
+
+}
+
+/* Horizontal top menu*/
+
+#menu {
+
+  margin: 0px;
+
+  padding: 0px;
+
+  color: brown;
+
+  border-bottom: 1px solid sandybrown;
+
+}
+
+#menu ul {
+
+  margin: 0px;
+
+  padding: 0px;
+
+}
+
+#menu li {
+
+  list-style-type: none;
+
+  display: inline;
+
+  margin: 0px;
+
+  padding: 0px;
+
+}
+
+#menu .selected {
+
+  background: sandybrown;
+
+  color: white;
+
+}
+
+#menu a {
+
+  color: inherit;
+
+}
+
+.menuitem {
+
+  padding: 0px 1em;
+
+  margin: 0px 0.5em 0px 0px;
+
+  cursor: hand;
+
+  font-weight: bold;
+
+}
+
+.logout {
+
+  float: right;
+
+}
+
+
+
+/* tags with class outline will have their outlines highlighted with thin lines. */
+
+.outline table, .outline td, .outline th {
+
+	border-collapse: collapse;
+
+	border: 1px solid gray;
+
+}
+
+.tabletitle {
+
+  padding: 6px 0px;
+
+}
+
+.selected {
+
+  background: royalblue;
+
+  color: white;
+
+}
+
+.selected a:visited {
+
+  color: white;
+
+}
+
+.unselected {
+
+  background: white;
+
+  color: black;
+
+}
+
+.unselected a:visited {
+
+  color: black;
+
+}
+
+.mi { /* The menu item. */
+
+  font-weight: bold;
+
+}
+
+.clickable {    /* Div/Span instead of links. */
+
+  padding: 4px;
+
+  background: firebrick;
+
+  color: white;
+
+}
+
+.rgap {
+
+  margin-right: 4px;
+
+}
+
+.deletelink {
+
+  /* background: gold; */
+
+  font-size: 90%;
+
+  color: darkred;
+
+  font-weight: normal;
+
+  text-align: left;
+
+}
+
+.editlink {
+
+font-weight: bold;
+
+}
+
+#trace {
+
+  border: 2px dotted navy;
+
+  padding: 4px;
+
+  margin-top: 4px;
+
+  margin-bottom: 4px;
+
+  background-color: palegreen;
+
+}
+
+#flash {
+
+  border: 2px solid darkred;
+
+  padding: 4px;
+
+  background: yellow;
+
+  color: black;
+
+  margin-bottom: 4px;
+
+}
+
+.active {
+
+  background: azure;
+
+  font-style: italic;
+
+}
+
+.updatelink {
+
+  background: azure;
+
+  font-style: italic;
+
+}
+
+.updatelinksel {
+
+  background: orange;
+
+  font-weight: bold;
+
+}
+
+.ralign {
+
+  text-align: right;
+
+}
+
+.calign {
+
+  text-align: center;
+
+}
+
+.updatelabel {
+
+  background: azure;
+
+}
+
+
+
+/* The top menu item styling. */
+
+.menuitem {
+
+  text-align: center; padding: 0px 1em; background: white; margin: 0px; color: orange; font-weight: bold;
+
+}
+
+/* Menu hover. */
+
+.hover {
+
+  background: coral; font-weight: normal; color: yellow; font-weight: bold;
+
+}
+
+/* Menu hover. */
+
+.menuselect {
+
+  background: crimson; color: white; font-weight: bold;
+
+}
+
+.cgname {
+
+  font-weight: bold; cursor: default;
+
+}
+
+.xlink {
+
+  text-align: left; padding: 4px 6px; margin-bottom: 4px; background: lightblue;
+
+}
+
+
+
+.ht6em {
+
+  padding: 6em;
+
+}
+
+.ht1em {
+
+  padding: 1em;
+
+}
+
+
+
+.warn {
+
+  padding: 0.5em;
+
+  background: tomato;
+
+  color: white;
+
+  text-align: center;
+
+  margin: 8px auto;
+
+  width: 400px;
+
+  font-weight: bold;
+
+}
+
+
+
+.xdel {
+
+  font-weight: bold;
+
+  color: crimson;
+
+}
+
+.focus-grid {
+
+  width: inherit;
+
+  margin: 2px auto;
+
+}
+
+.focus-grid table {
+
+  font-size: 80%;
+
+}
+
+.live {
+
+  background: lightyellow;
+
+}
+
+.unlive {
+
+  background: lightsalmon;
+
+  color: white;
+
+  font-weight: bold;
+
+}
+
+.bold {
+
+  font-weight: bold;
+
+}
+
+
+
+.no-selection {
+
+  padding-top: 1em;
+
+  padding-bottom: 1em;
+
+}
+
+
+
+.mid-grid {
+
+  width: inherit;
+
+  margin: 2px auto;
+
+}
+
+/* Striping for data grid. */
+
+.odd {
+
+  background: khaki;
+
+}
+
