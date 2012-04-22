@@ -1,4 +1,15 @@
-track
+Track
 =====
 
-A simple PHP web app created to demonstrate web programming to a junior colleague
+A simple PHP web app created to demonstrate web programming to a colleague.
+
+The app is a project management tool, different engineers are assigned to
+various projects, called tracks, and work is assigned to them in those projects.
+The status of the different tasks is tracked by the application.
+
+The app does not use any framework. 
+
+MySQL API readily available in PHP is used to access the database.
+
+If I were writing the app today, I'd have used Smarty for HTML generation.
+
